@@ -51,14 +51,20 @@ Lists all predefined types, equivalent to ```λ py m8y_ball.py -l```.
 ### answt(type)
 
 Input ```type``` should be a type defined by ```listt()```.
-Gives an answer based on a predifined type (s. ```listt()```), equivalent to ```λ py m8y_ball.py input```.
+
+Gives an answer based on a predifined type (s. ```listt()```), 
+
+equivalent to ```λ py m8y_ball.py input```.
 
 ### answf(file)
 
 Input ```file``` should be a file name or path.
-Gives an answer based on a self declared answer file, equivalent to ```λ py m8y_ball.py -i I```.
 
-### Answer files
+Gives an answer based on a self declared answer file, 
+
+equivalent to ```λ py m8y_ball.py -i I```.
+
+## Answer files
 
 ```
 λ cat answer.txt
@@ -71,10 +77,13 @@ Can i haz cheesburgerz
 Can i haz cheesburgerz
 
 ```
-An answer file is file with answers used to answer questions, it should contain one answer on one line.
-These lines should be seperated by newlines (```\n```)
+An answer file is file with answers used to answer questions, 
 
-### Included Answers
+it should contain one answer on one line.
+
+These lines should be seperated by newlines (```\n```).
+
+## Included Answers
 
 * generic
 * excuses
